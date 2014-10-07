@@ -1,4 +1,5 @@
 // window.plugins.emailComposer
+//1.1.0
 
 function EmailComposer() {
     this.resultCallback = null; // Function
