@@ -1,8 +1,11 @@
 ## Phonegap Email Composer Plugin
 
   * Author: Tanin Srivaraphong (Original : Guido Sabatini)
+  * Contributor: Ayyappa Veerapaneni
   * License: The MIT License
   * Tested on PhoneGap/Cordova 2.3.0 - 2.9.0
+
+
 
 ## Callable interface:
 

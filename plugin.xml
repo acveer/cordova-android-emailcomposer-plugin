@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="org.apache.cordova.email-composer"
+        version="1.1.0">
+
+    <name>EmailComposer</name>
+
+    <description>Provides access to the standard interface that manages the editing and sending an email message</description>
+    <repo>https://github.com/acveer/cordova-android-emailcomposer-plugin.git</repo>
+    <keywords>email, android, emailcomposer</keywords>
+    <license>Apache 2.0</license>
+
+    <!--<engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>-->
+
+    <!-- interface -->
+    <js-module src="www/EmailComposer.js" name="EmailComposer">
+        <clobbers target="EmailComposer" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="EmailComposer">
+                <param name="android-package" value="org.apache.cordova.email-composer.EmailComposer"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/EmailComposer.java" target-dir="src/org/apache/cordova/email-composer" />
+    </platform>
+
+</plugin>
