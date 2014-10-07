@@ -6,7 +6,13 @@
   * Supports only PhoneGap/Cordova 3.x.x and above.
 
 
+## Installation
+```javascript
+cordova plugin add https://github.com/acveer/cordova-android-emailcomposer-plugin.git 
 
+## Uninstallation
+```javascript
+cordova plugin remove org.apache.cordova.email
 
 ## Callable interface:
 
