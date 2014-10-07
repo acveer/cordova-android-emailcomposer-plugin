@@ -5,14 +5,16 @@
   * License: The MIT License
   * Supports only PhoneGap/Cordova 3.x.x and above.
 
-
-## Installation
+## Install
 ```javascript
 cordova plugin add https://github.com/acveer/cordova-android-emailcomposer-plugin.git 
+```
 
-## Uninstallation
+## Uninstall
 ```javascript
 cordova plugin remove org.apache.cordova.email
+```
+
 
 ## Callable interface:
 
@@ -25,6 +27,10 @@ OR
 ```javascript
 window.plugins.emailComposer.showEmailComposer(subject,body,toRecipients,ccRecipients,bccRecipients,isHtml,attachments);
 ```
+
+
+
+
 
 
 
