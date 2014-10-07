@@ -1,9 +1,10 @@
-## Phonegap Email Composer Plugin
+## Android Phonegap Email Composer Plugin
 
   * Author: Tanin Srivaraphong (Original : Guido Sabatini)
   * Contributor: Ayyappa Veerapaneni
   * License: The MIT License
-  * Tested on PhoneGap/Cordova 2.3.0 - 2.9.0
+  * Supports only PhoneGap/Cordova 3.x.x and above.
+
 
 
 
@@ -19,7 +20,7 @@ OR
 window.plugins.emailComposer.showEmailComposer(subject,body,toRecipients,ccRecipients,bccRecipients,isHtml,attachments);
 ```
 
-**ATTENTION:** the callback will never be triggered, it's here only for consistency with the iOS plugin
+
 
 
 ## Parameters

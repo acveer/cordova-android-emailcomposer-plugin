@@ -1,15 +1,13 @@
 /**
  *
  * Cordova Phonegap Email composer plugin for Android with multiple attachments handling
+ * Supports only Cordova 3.x.x & above.
  *
- * Version 1.1.0
- *
- * @author Tanin Srivaraphong
- * @author Guido Sabatini 2012 (Original)
- *
+ * @author Ayyappa Veerapaneni
+ * @1.1.0
  */
 
-package org.apache.cordova.email-composer;
+package org.apache.cordova.email;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -23,9 +21,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.text.Html;
 
-import org.apache.cordova.api.CallbackContext;
-import org.apache.cordova.api.CordovaPlugin;
-import org.apache.cordova.api.LOG;
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.LOG;
 
 public class EmailComposer extends CordovaPlugin {
 

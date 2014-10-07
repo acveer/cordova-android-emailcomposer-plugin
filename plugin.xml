@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="org.apache.cordova.email-composer"
+        id="org.apache.cordova.email"
         version="1.1.0">
 
     <name>EmailComposer</name>
@@ -24,11 +24,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
-                <param name="android-package" value="org.apache.cordova.email-composer.EmailComposer"/>
+                <param name="android-package" value="org.apache.cordova.email.EmailComposer"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/EmailComposer.java" target-dir="src/org/apache/cordova/email-composer" />
+        <source-file src="src/android/EmailComposer.java" target-dir="src/org/apache/cordova/email" />
     </platform>
 
 </plugin>
