@@ -2,8 +2,9 @@
 
   * Author: Tanin Srivaraphong (Original : Guido Sabatini)
   * Contributor: Ayyappa Veerapaneni
-  * License: The MIT License
+  * License: MIT License
   * Supports only PhoneGap/Cordova 3.x.x and above.
+  * For PhoneGap/Cordova 2.3 to 2.9, see https://github.com/giver/cordova-android-emailcomposer-plugin.git
 
 ## Install
 ```javascript
@@ -31,10 +32,6 @@ window.plugins.emailComposer.showEmailComposer(subject,body,toRecipients,ccRecip
 
 
 
-
-
-
-
 ## Parameters
 
     callback: never used
@@ -45,4 +42,8 @@ window.plugins.emailComposer.showEmailComposer(subject,body,toRecipients,ccRecip
     bccRecipients: a js array containing all the email addresses for BCC field; can be null/empty
     isHtml: a bool value indicating if the body is HTML or plain text
     attachments: a js array containing all full paths to the files you want to attach; can be null/empty
+
+
+## MIT License
+Copyright (c) 2014 Ayyappa Veerapaneni
 

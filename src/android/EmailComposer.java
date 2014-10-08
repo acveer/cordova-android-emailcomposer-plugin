@@ -5,6 +5,7 @@
  *
  * @author Ayyappa Veerapaneni
  * @1.1.0
+ * @author Guido Sabatini (Original 2012), Tanin Srivaraphong (2013)
  */
 
 package org.apache.cordova.email;
@@ -27,7 +28,7 @@ import org.apache.cordova.LOG;
 
 public class EmailComposer extends CordovaPlugin {
 
-    private final String LOG_TAG = "V-EmailComposer";
+    private final String LOG_TAG = "EmailComposer";
     private CallbackContext _callbackContext;
 
     @Override
