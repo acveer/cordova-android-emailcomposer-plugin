@@ -1,7 +1,7 @@
 ## Android Phonegap Email Composer Plugin
 
   * Author: Tanin Srivaraphong (Original : Guido Sabatini)
-  * Contributor: Ayyappa Veerapaneni
+  * Contributor: acveer
   * License: MIT License
   * Supports only PhoneGap/Cordova 3.x.x and above.
   * For PhoneGap/Cordova 2.3 to 2.9, see https://github.com/giver/cordova-android-emailcomposer-plugin.git
@@ -45,5 +45,5 @@ window.plugins.emailComposer.showEmailComposer(subject,body,toRecipients,ccRecip
 
 
 ## MIT License
-Copyright (c) 2014 Ayyappa Veerapaneni
+
 
